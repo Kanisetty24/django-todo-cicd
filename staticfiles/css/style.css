@@ -50,3 +50,24 @@ h1 {
 .btn-outline-primary {
     border-color: white; /* White border for outline buttons */
 }
+
+/* Hover effect for list items */
+.list-group-item:hover {
+    background-color: #444; /* Slightly lighter gray on hover */
+}
+
+/* Hover effect for completed tasks */
+.todo-complete:hover {
+    cursor: not-allowed; /* Change cursor to indicate completed tasks cannot be modified */
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Hover effect for outline buttons */
+.btn-outline-primary:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+}
+
