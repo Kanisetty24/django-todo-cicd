@@ -16,3 +16,37 @@
   cursor: pointer;
   margin-right: 10px;
 }
+
+/* Dark theme styles */
+body {
+    background-color: #000; /* Set background color to black */
+    color: #fff; /* Set text color to white */
+    font-family: Arial, sans-serif; /* Clean font for readability */
+}
+
+h1 {
+    color: #007bff; /* Bright blue for headings (optional) */
+}
+
+.list-group {
+    margin: 20px 0; /* Spacing for the task list */
+}
+
+.list-group-item {
+    background-color: #333; /* Dark gray for task items */
+    color: #fff; /* White text for tasks */
+    border: 1px solid #444; /* Subtle border for better definition */
+}
+
+.todo-complete {
+    opacity: 0.6; /* Slightly transparent for completed tasks */
+}
+
+.btn {
+    background-color: #007bff; /* Bright blue for buttons */
+    color: white; /* White text on buttons */
+}
+
+.btn-outline-primary {
+    border-color: white; /* White border for outline buttons */
+}
