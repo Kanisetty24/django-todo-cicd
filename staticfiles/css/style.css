@@ -51,3 +51,23 @@ h1 {
     border-color: white; /* White border for outline buttons */
 }
 
+.list-group-item:hover {
+    background-color: #555; /* Darker gray on hover */
+    cursor: pointer; /* Pointer cursor to indicate interactivity */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue for the button */
+    color: #fff; /* Keep the text white */
+}
+
+.btn-outline-primary:hover {
+    background-color: white; /* White background on hover */
+    color: #007bff; /* Blue text for outline buttons */
+}
+
+.fa-trash-alt:hover {
+    color: #ff4d4d; /* Lighter red for trash icon on hover */
+}
+
+
